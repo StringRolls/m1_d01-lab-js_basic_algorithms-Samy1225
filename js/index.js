@@ -42,6 +42,24 @@ for (let i = hacker1.length -1; i >= 0; i--){
 console.log(nameReverse);
 // Iteration 3.3 Lexicographic order
 
+let driversArray = [hacker1, hacker2];
+let myArray = driversArray.sort();
+
+for (let i = 0; i < myArray.length; i++){
+    if (myArray === hacker1){
+        console.log("The driver's name goes first.")
+     }
+     
+     else if(myArray === hacker2){
+         console.log("Yo, the navigator goes first definitely.")
+
+     }
+     
+     else{
+         console.log("What?! You both have the same name?")
+     }
+
+    }
 
 
 // Bonus 1: Palindromes
